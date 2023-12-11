@@ -12,33 +12,40 @@ npx create-react-app <폴더명>
 <span style="color:green">// 의존성</span><br>
 npm install react-router-dom@6
 
-* [fontawsome react](https://fontawesome.com/v5/docs/web/use-with/react)
+* fontawsome react  
+https://fontawesome.com/v5/docs/web/use-with/react
 
 npm i --save @fortawesome/fontawesome-svg-core  
 npm install --save @fortawesome/free-solid-svg-icons  
 npm install --save @fortawesome/free-regular-svg-icons  
 npm install --save @fortawesome/react-fontawesome
 
-* [json-server](https://www.npmjs.com/package/json-server)
+* json-server  
+https://www.npmjs.com/package/json-server
 
 npm install -g json-server
 
 products.json  
-https://gist.github.com/legobitna/24cf11ae95d53c9cdcdc7b0040f059e9
+https://gist.github.com/legobitna/24cf11ae95d53c9cdcdc7b0040f059e9  
 https://my-json-server.typicode.com/legobitna/hnm-react-router/products
 
 json-server --watch products.json --port 5000
 
-* [My Json Server](https://my-json-server.typicode.com/)
+* My Json Server  
+https://my-json-server.typicode.com/
+
 
 * react-bootstrap
 
 npm install react-bootstrap bootstrap
+npm install react-bootstrap bootstrap@5.1.3
 
 ## 프로젝트 설명 
 
-* 데모
+* 데모:
 https://noona-hnm.netlify.app/
+* 전체소스:
+https://github.com/legobitna/hnm-react-router
 
 1. 전체 상품페이지, 로그인, 상품상세페이지
 2. 전체 상품페이지에서는 전체 상품을 볼 수 있다.
@@ -64,3 +71,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ### detail 페이지
 ![img_1.png](img_1.png)
+
+### state
+
+![img_2.png](img_2.png)
